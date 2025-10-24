@@ -9,7 +9,7 @@ This is a straightforward little web app that lets you ask questions and get fas
 * Uses LangChain to structure the prompt and parse the output.
 * Provides a sidebar to:
     * Enter your Groq API key securely.
-    * Choose your preferred LLM (like `gemma2-9b-it`).
+    * Choose your preferred LLM (like `llama-3.3-70b-versatile`).
     * Adjust the AI's "creativity" (Temperature).
     * Set the maximum answer length (Max Tokens).
 
