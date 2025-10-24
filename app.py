@@ -30,7 +30,7 @@ def generate_response(question,api_key,llm_model,temperature,max_tokens):
 st.sidebar.title("Settings")
 api_key=st.sidebar.text_input("Enter your Groq API Key",type="password")
 
-llm=st.sidebar.selectbox("Select LLM Model",["gemma2-9b-it", "groq/compound"]  )
+llm=st.sidebar.selectbox("Select LLM Model",["llama-3.3-70b-versatile", "groq/compound"]  )
 temperature=st.sidebar.slider("Select Temperature",min_value=0.0,max_value=1.0,value=0.7,step=0.1)
 max_tokens=st.sidebar.slider("Select Max Tokens",min_value=50,max_value=400,value=1000,step=150)
 
